@@ -7,6 +7,7 @@ export default function Home() {
           <h1 className="text-4xl mb-6 font-bold">لتس اسپلیت :)</h1>
           <h1 className="text-6xl mb-8">⌨️🪓 Let&apos;s Split</h1>
           <span className="text-gray-300">Coming Soon...</span>
+          <Button>test</Button>
         </article>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
