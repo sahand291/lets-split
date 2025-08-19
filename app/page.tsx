@@ -4,6 +4,7 @@ export default function Home() {
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <article className="text-center">
+          <h1 className="text-4xl mb-6 font-bold">لتس اسپلیت :)</h1>
           <h1 className="text-6xl mb-8">⌨️🪓 Let&apos;s Split</h1>
           <span className="text-gray-300">Coming Soon...</span>
         </article>
