@@ -76,8 +76,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${vazir.variable} ${geistMono.variable} antialiased`}>
+    <html lang="fa" dir="rtl">
+      <body
+        className={`${vazir.variable} ${geistMono.variable} antialiased bg-background min-h-scree scroll-smooth`}
+      >
+        <h1> yohio </h1>
         {children}
       </body>
     </html>
