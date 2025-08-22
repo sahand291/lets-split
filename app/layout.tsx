@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Head from "next/head";
 
 const vazir = localFont({
   src: [
@@ -77,6 +78,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fa" dir="rtl">
+      <Head>
+        <meta name="robots" content="noindex" />
+      </Head>
       <body
         className={`${vazir.variable} ${geistMono.variable} antialiased bg-background min-h-scree scroll-smooth`}
       >
